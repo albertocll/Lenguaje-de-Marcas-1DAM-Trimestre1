@@ -1,0 +1,108 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del tablero de juego */
+#gameBoard {
+    width: 80vw;
+    height: 60vh;
+    background-color: #222;
+    border: 2px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilo de las paletas */
+.paddle {
+    width: 10px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+}
+
+/* Posición de la paleta del jugador 1 (izquierda) */
+#playerPaddle {
+    left: 0;
+}
+
+/* Posición de la paleta del jugador 2 (derecha) */
+#computerPaddle {
+    right: 0;
+}
+
+/* Estilo de la pelota */
+#ball {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+}
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del tablero de juego */
+#gameBoard {
+    width: 80vw;
+    height: 60vh;
+    background-color: #222;
+    border: 2px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilo de las paletas */
+.paddle {
+    width: 10px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+}
+
+/* Posición de la paleta del jugador 1 (izquierda) */
+#playerPaddle {
+    left: 0;
+}
+
+/* Posición de la paleta del jugador 2 (derecha) */
+#computerPaddle {
+    right: 0;
+}
+
+/* Estilo de la pelota */
+#ball {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+}
